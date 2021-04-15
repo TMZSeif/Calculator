@@ -80,8 +80,8 @@ for (let i = 0; i < children.length; i++) {
       if (
         children[i].textContent === "+" ||
         children[i].textContent === "-" ||
-        children[i].textContent === "x" ||
-        children[i].textContent === "/" ||
+        children[i].textContent === "×" ||
+        children[i].textContent === "÷" ||
         children[i].textContent === "%"
       ) {
         if (operator) {
